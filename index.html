@@ -2,27 +2,328 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta author="A.Tereschenko" email="freelancer.ua.1992@gmail.com">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="A.Tereschenko" email="freelancer.ua.1992@gmail.com">
 
-    <title>Template</title>
-    <link rel="shortcut icon" href="img/shortcut.svg">
+  <title>CV</title>
+  <link rel="shortcut icon" href="img/logo.svg">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/reseter.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="css/reseter.css">
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 
 <body>
 
-    <div class="wrapper">
-        
-    </div>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="sidebar">
+        <div class="sideebar-header">
+          <div class="image-text">
+            <span class="image">
+              <img src="https://icons.iconarchive.com/icons/titch-ix/game/256/Freelancer-icon.png" alt="logo">
+            </span>
 
-    <script src="js/script.js"></script>
+            <div class="text header-text">
+              <span class="name">aka Freelancer</span>
+              <span class="proffesion">Web developer</span>
+            </div>
+          </div>
+
+          <div class='toggle tog'></div>
+        </div>
+
+        <div class="menu-bar">
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="#home">
+                <i class='bx bx-home icon'></i>
+                <span class="text nav-text">Home</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#about">
+                <i class='bx bx-user icon'></i>
+                <span class="text nav-text">About</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#experience">
+                <i class='bx bx-hard-hat icon'></i>
+                <span class="text nav-text">Experience</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#service">
+                <i class='bx bx-bell icon'></i>
+                <span class="text nav-text">Service</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#portfolio">
+                <i class='bx bx-baguette icon'></i>
+                <span class="text nav-text">Portfolio</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="#contacts">
+                <i class='bx bxs-contact icon'></i>
+                <span class="text nav-text">Contacts</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="theme">
+            <li class="sun-moon">
+              <i class='bx bx-moon icon moon'></i>
+              <i class='bx bx-sun icon sun'></i>
+            </li>
+            <span class="theme-text text">Dark theme</span>
+
+            <div class="page_action">
+              <div class="toggle-switch tog">
+                <span class="switch"></span>
+              </div>
+              <button type="button" class="page_reset"></button>
+            </div>
+
+          </div>
+
+        </div>
+      </nav>
+
+    </header>
+
+    <main class="content">
+
+      <article>
+        <section class="home" id="home">
+          <div class="content_block">
+            <span class="hi"> hi there... </span>
+            <h3> My name is <span> Alex Tereshchenko </span> </h3>
+            <p class="info"> And I'm seeking an entry-level web-developer position. </p>
+            <p class="text"> I'm a versatile and hard-working man, with practical "get the things done" approach, who
+              always perseveres to achieve the best results! </p>
+            <a href="#about" class="btn">About me</a>
+          </div>
+  
+          <div class="image">
+            <img src="img/home-img.png" alt="home-img" class="mayBeDarker images">
+          </div>
+        </section>
+  
+        <section class="about" id="about">
+          <h3 class="heading"> about <span> me </span></h3>
+  
+          <div class="row-1">
+  
+            <div class="image">
+              <img src="img/about-img.jpg" alt="about_photo" class="mayBeDarker">
+            </div>
+  
+            <div class="content_block">
+              <h4> The war changed our lives and we had to adapt. </h4>
+              <p>Recently attained a LevelUp^Coding Full-Stack Web Development Training Certification and
+                at the same time passed several intensive marathons in HTML/CSS, JavaScript from GoIT and
+                VladilenMininCourse.
+                Looking forward to using my technical knowledge to help grow your company and improve its online presence.
+              </p>
+              <div class="box-container">
+                <div class="box">
+                  <p> <span> Age : </span> 29 </p>
+                  <p> <span> Gender : </span> male </p>
+                  <p> <span> Language : </span> Ukrainian (native), English(intermediate) </p>
+                  <p> <span> Work : </span> unemployed </p>
+                </div>
+                <div class="box">
+                  <p> <span> Freelance : </span> available </p>
+                  <p> <span> Phone : </span> <a href="tel:+380-96-054-7502">+380-96-054-7502</a> </p>
+                  <p> <span> Email : </span> <a
+                      href="mailto:freelancer.ua.1992@gmail.com">freelancer.ua.1992@gmail.com</a> </p>
+                  <p> <span> Country : </span> Ukraine </p>
+                </div>
+              </div>
+  
+              <div class="btn_container">
+                <a href="pdf/CV.pdf" class="btn" download="">download CV</a>
+                <a href="tel:+380-96-054-7502" class="btn">Hire Me</a>
+              </div>
+  
+            </div>
+          </div>
+  
+          <div class="row-2">
+  
+            <h3 class="heading acc-btn"> <span> my </span> skills <i class='bx bxs-up-arrow'></i></h3>
+  
+  
+  
+            <div class="skills acc-obj">
+              <div class="progress">
+                <p> Jsvs Script <span data-="90"> 90% </span> </p>
+                <div class="bar first"></div>
+              </div>
+              <div class="progress">
+                <p> HTML/CSS <span data-="95"> 95% </span> </p>
+                <div class="bar second"></div>
+              </div>
+              <div class="progress">
+                <p> GIT <span data-="90"> 90% </span> </p>
+                <div class="bar third"></div>
+              </div>
+              <div class="progress">
+                <p> Web Design <span data-="70"> 70% </span> </p>
+                <div class="bar fourth"></div>
+              </div>
+              <div class="progress">
+                <p> Sarcasm <span data-="100"> 100% </span> </p>
+                <div class="bar fifth"></div>
+              </div>
+              <div class="progress">
+                <p> Stress Tolerance <span data-="90"> 90% </span> </p>
+                <div class="bar sixth"></div>
+              </div>
+              <div class="progress">
+                <p> Teamwork <span data-="80"> 80% </span> </p>
+                <div class="bar seventh"></div>
+              </div>
+            </div>
+  
+          </div>
+        </section>
+  
+        <section class="experience" id="experience">
+          <div>
+            <h3 class="heading acc-btn"> <span> Education </span> <i class='bx bxs-up-arrow'></i></h3>
+  
+            <ul class="edu acc-obj">
+              <li>
+                <b>Cherkasy State Technological University</b>
+                <i>September 2009 - June 2014 </i>
+                <p>Construction Faculty | Undergraduate</p>
+              </li>
+    
+              <li>
+                <b>Cherkasy State Technological University</b>
+                <i>September 2014 - January 2016</i>
+                <p>Construction Faculty | Masters</p>
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 class="heading acc-btn"> Work <span> Experience </span> <i class='bx bxs-up-arrow'></i></h3>
+  
+            <ul class="exp acc-obj">
+              <li>
+                <b>Engineer | "ЧЕЛУАШ"</b>
+                <i>June 2012 | Cherkassy, UA</i>
+                <p>Lead the section of workers engaged in road surface repair.</p>
+              </li>
+    
+              <li>
+                <b>Junior Specialist | ФОП "Музичук"</b>
+                <i>January 2016/March 2018 | Cherkassy, UA</i>
+                <p>Performed technical inventory and acomplished a few construction projects</p>
+              </li>
+    
+              <li>
+                <b>Engineer | "Елітпроект-С"</b>
+                <i>March 2018/February 2022 | Cherkassy, UA</i>
+                <p>Performed technical inventory, construction and work projects of various classes of SS2/SS3 consequences,
+                  carried out technical supervision of industrial and civil facilities</p>
+              </li>
+            </ul>
+          </div>
+          
+        </section>
+  
+        <section class="service" id="service">
+          <h3 class="heading acc-btn"> <span> service </span> <i class='bx bxs-up-arrow'></i></h3>
+
+          <div class="container acc-obj">
+            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.8" data-tilt-perspective="500">
+                <div class="content-card">
+                    <h2>01</h2>
+                    <h3>Card One</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                
+            </div>
+    
+            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.8"  data-tilt-perspective="500">
+                <div class="content-card">
+                    <h2>03</h2>
+                    <h3>Card Two</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.hjhjhkhkh kjhkjh </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+    
+            <div class="card" data-tilt data-tilt-glare data-tilt-max-glare="0.8"  data-tilt-perspective="500">
+                <div class="content-card">
+                    <h2>03</h2>
+                    <h3>Card Three</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        </section>
+  
+        <section class="portfolio" id="portfolio">
+          <h3 class="heading acc-btn"> portfolio <span> </span><i class='bx bxs-up-arrow'></i></h3>
+          
+        </section>
+  
+        <section class="contacts" id="contacts">
+          <h3 class="heading acc-btn"> <span> contacts </span> <i class='bx bxs-up-arrow'></i></h3>
+
+        </section>
+      </article>
+
+      <aside>
+
+      </aside>
+
+    </main>
+
+    <footer id="footer">
+
+    </footer>
+  </div>
+  <div class="cursor"></div>
+  <div class="cursorTracer">
+
+  <script src="js/customMouse.js"></script>
+  <script src="js/navToggle.js"></script>
+  <script src="js/schemeSwitcher.js"></script>
+  <script src="js/accordeeon.js"></script>
+  <script src="js/vanilla-tilt.js"></script>
+  <script>
+      VanillaTilt.init(document.querySelector(".card"), {
+          max: 25,
+          speed: 400
+      });
+  </script>
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
 </body>
 
 </html>

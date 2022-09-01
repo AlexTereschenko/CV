@@ -2,4 +2,4 @@
 
 my CV
 
-https://alextereschenko.github.io/cv/
+https://alextereschenko.github.io/CV/
